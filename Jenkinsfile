@@ -2,7 +2,7 @@ node {
     def app
 
     stage('Clone repository') {
-      
+         sh "git branch -a"
 
         checkout scm
     }
